@@ -1,0 +1,11 @@
+      <Header />
+      <main>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/crime' element={<Crime />}/>
+          <Route path='/finance' element={<Finance />}/>
+          <Route path='/happen' element={<Happen />}/>
+          <Route path='/politic' element={<Politic />}/>
+        </Routes>
+      </main>
+      <Footer />
